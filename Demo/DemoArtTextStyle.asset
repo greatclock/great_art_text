@@ -1,0 +1,276 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c35e8002c888adb4faf98ddb0da918e2, type: 3}
+  m_Name: DemoArtTextStyle
+  m_EditorClassIdentifier: 
+  m_Style:
+    m_Fonts:
+    - m_UseFontAsset: 0
+      m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+      m_FontAsset: {fileID: 0}
+    m_FontSize: 150
+    m_FontStyle: 0
+    m_LineHeight: 1
+    m_LineSpace: 0
+    m_ColorType: 1
+    m_FontColor: {r: 0.4245283, g: 0, b: 0, a: 1}
+    m_ColorGradient:
+      serializedVersion: 2
+      key0: {r: 0.5, g: 0, b: 0, a: 1}
+      key1: {r: 0.5019608, g: 0, b: 1, a: 1}
+      key2: {r: 0, g: 0, b: 1, a: 0}
+      key3: {r: 0, g: 0, b: 0, a: 0}
+      key4: {r: 0, g: 0, b: 0, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 0
+      ctime1: 32768
+      ctime2: 65535
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_NumColorKeys: 3
+      m_NumAlphaKeys: 2
+    m_ColorGradientAngle: -80
+    m_ColorTexture: {fileID: 0}
+    m_ColorTextureTiling: {x: 1, y: 1}
+    m_ColorTextureOffset: {x: 0, y: 0}
+    m_ColorTexturePerChar: 0
+    m_CharSpace: 0
+    m_CharScale: {x: 1, y: 1}
+    m_CharIncline: {x: 0.14, y: -0.05}
+    m_TextBlend: 1
+    m_HasCharTrapezoid: 1
+    m_CharTrapezoidAxis: 0
+    m_CharTrapezoidRatio: 0.145
+    m_CharTrapezoidConcaveConvex: 0
+    m_SpacialMode: 1
+    m_ShadowOffset: {x: 0, y: -5.46}
+    m_ShadowExtend: 10.9
+    m_ShadowAngleBlur: 1
+    m_ShadowBlur: 8.1
+    m_ShadowBlurDirection: -16
+    m_ShadowBlurAlongAndCross: {x: 5, y: 24}
+    m_ShadowColor:
+      m_ColorType: 1
+      m_Color: {r: 1, g: 0.5019608, b: 0, a: 1}
+      m_Gradient:
+        serializedVersion: 2
+        key0: {r: 1, g: 0.5019608, b: 0, a: 1}
+        key1: {r: 0, g: 1, b: 1, a: 1}
+        key2: {r: 0, g: 1, b: 1, a: 0}
+        key3: {r: 0, g: 0, b: 0, a: 0}
+        key4: {r: 0, g: 0, b: 0, a: 0}
+        key5: {r: 0, g: 0, b: 0, a: 0}
+        key6: {r: 0, g: 0, b: 0, a: 0}
+        key7: {r: 0, g: 0, b: 0, a: 0}
+        ctime0: 0
+        ctime1: 65535
+        ctime2: 65535
+        ctime3: 0
+        ctime4: 0
+        ctime5: 0
+        ctime6: 0
+        ctime7: 0
+        atime0: 0
+        atime1: 65535
+        atime2: 0
+        atime3: 0
+        atime4: 0
+        atime5: 0
+        atime6: 0
+        atime7: 0
+        m_Mode: 0
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+      m_GradientAngle: 0
+      m_Texture: {fileID: 0}
+      m_TextureTiling: {x: 1, y: 1}
+      m_TextureOffset: {x: 0, y: 0}
+    m_ShadowIntensity: 1
+    m_SpacialLight360:
+      serializedVersion: 2
+      key0: {r: 0, g: 0, b: 0, a: 0.37254903}
+      key1: {r: 0, g: 0, b: 0, a: 0}
+      key2: {r: 0, g: 0, b: 0, a: 0.37254903}
+      key3: {r: 0, g: 1, b: 1, a: 0}
+      key4: {r: 0, g: 0, b: 1, a: 0}
+      key5: {r: 1, g: 0, b: 1, a: 0}
+      key6: {r: 1, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 0
+      ctime1: 65535
+      ctime2: 65535
+      ctime3: 37476
+      ctime4: 47085
+      ctime5: 55541
+      ctime6: 65535
+      ctime7: 0
+      atime0: 0
+      atime1: 31326
+      atime2: 65535
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 3
+    m_SpacialLightPhase: 50
+    m_SpacialLightSoft: 4
+    m_SpacialFaded: {r: 0.3490566, g: 0.3490566, b: 0, a: 0.7411765}
+    m_Perspective3dEndPoint: {x: 0.5, y: 1.45}
+    m_Perspective3dStretch: 0.15
+    m_Orthographic3dDirection: 40
+    m_Orthographic3dLength: 20
+    m_HasOutline: 1
+    m_OutlineSize: 7
+    m_OutlineColor:
+      m_ColorType: 0
+      m_Color: {r: 0, g: 0, b: 0, a: 1}
+      m_Gradient:
+        serializedVersion: 2
+        key0: {r: 1, g: 1, b: 1, a: 1}
+        key1: {r: 1, g: 1, b: 1, a: 1}
+        key2: {r: 0, g: 0, b: 0, a: 0}
+        key3: {r: 0, g: 0, b: 0, a: 0}
+        key4: {r: 0, g: 0, b: 0, a: 0}
+        key5: {r: 0, g: 0, b: 0, a: 0}
+        key6: {r: 0, g: 0, b: 0, a: 0}
+        key7: {r: 0, g: 0, b: 0, a: 0}
+        ctime0: 0
+        ctime1: 65535
+        ctime2: 0
+        ctime3: 0
+        ctime4: 0
+        ctime5: 0
+        ctime6: 0
+        ctime7: 0
+        atime0: 0
+        atime1: 65535
+        atime2: 0
+        atime3: 0
+        atime4: 0
+        atime5: 0
+        atime6: 0
+        atime7: 0
+        m_Mode: 0
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+      m_GradientAngle: 0
+      m_Texture: {fileID: 0}
+      m_TextureTiling: {x: 1, y: 1}
+      m_TextureOffset: {x: 0, y: 0}
+    m_OutlineFillText: 0
+    m_InnerFxMode: 3
+    m_InnerFxColor:
+      m_ColorType: 0
+      m_Color: {r: 0.3962264, g: 0, b: 0, a: 1}
+      m_Gradient:
+        serializedVersion: 2
+        key0: {r: 1, g: 1, b: 1, a: 1}
+        key1: {r: 1, g: 1, b: 1, a: 1}
+        key2: {r: 0, g: 0, b: 0, a: 0}
+        key3: {r: 0, g: 0, b: 0, a: 0}
+        key4: {r: 0, g: 0, b: 0, a: 0}
+        key5: {r: 0, g: 0, b: 0, a: 0}
+        key6: {r: 0, g: 0, b: 0, a: 0}
+        key7: {r: 0, g: 0, b: 0, a: 0}
+        ctime0: 0
+        ctime1: 65535
+        ctime2: 0
+        ctime3: 0
+        ctime4: 0
+        ctime5: 0
+        ctime6: 0
+        ctime7: 0
+        atime0: 0
+        atime1: 65535
+        atime2: 0
+        atime3: 0
+        atime4: 0
+        atime5: 0
+        atime6: 0
+        atime7: 0
+        m_Mode: 0
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+      m_GradientAngle: 0
+      m_Texture: {fileID: 0}
+      m_TextureTiling: {x: 1, y: 1}
+      m_TextureOffset: {x: 0, y: 0}
+    m_InnerBlurFix: 0
+    m_InnerBlur: 2
+    m_InnerShadowDirection: 0
+    m_InnerFxBlend: 1
+    m_InnerMultiply: 1
+    m_EmbossLightColor: {r: 1, g: 1, b: 1, a: 1}
+    m_EmbossLightDirection: 50
+    m_EmbossBevel: 2
+    m_EmbossIntensity: 0.35
+    m_HasGlow: 1
+    m_GlowExtend: 2.2
+    m_GlowAngleBlur: 0
+    m_GlowBlur: 10
+    m_GlowBlurDirection: 0
+    m_GlowBlurAlongAndCross: {x: 0, y: 0}
+    m_GlowColor:
+      m_ColorType: 0
+      m_Color: {r: 1, g: 1, b: 0, a: 0.3}
+      m_Gradient:
+        serializedVersion: 2
+        key0: {r: 1, g: 1, b: 1, a: 1}
+        key1: {r: 1, g: 1, b: 1, a: 1}
+        key2: {r: 0, g: 0, b: 0, a: 0}
+        key3: {r: 0, g: 0, b: 0, a: 0}
+        key4: {r: 0, g: 0, b: 0, a: 0}
+        key5: {r: 0, g: 0, b: 0, a: 0}
+        key6: {r: 0, g: 0, b: 0, a: 0}
+        key7: {r: 0, g: 0, b: 0, a: 0}
+        ctime0: 0
+        ctime1: 65535
+        ctime2: 0
+        ctime3: 0
+        ctime4: 0
+        ctime5: 0
+        ctime6: 0
+        ctime7: 0
+        atime0: 0
+        atime1: 65535
+        atime2: 0
+        atime3: 0
+        atime4: 0
+        atime5: 0
+        atime6: 0
+        atime7: 0
+        m_Mode: 0
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+      m_GradientAngle: 0
+      m_Texture: {fileID: 0}
+      m_TextureTiling: {x: 1, y: 1}
+      m_TextureOffset: {x: 0, y: 0}
+    m_GlowBlurFix: 0
+    m_GlowIntensity: 0.35
