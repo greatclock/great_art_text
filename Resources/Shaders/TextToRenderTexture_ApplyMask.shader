@@ -26,6 +26,9 @@
             fixed4 frag(v2f i) : SV_Target
             {
                 float4 color = tex2D(_MainTex, i.uv.xy);
+#ifndef UNITY_COLORSPACE_GAMMA
+                color.rgb = LinearToGammaSpace(color.rgb);
+#endif
                 float mask = sign(tex2D(_TextTex, i.uv.xy).a);
                 color *= lerp(1, (1 - mask) * saturate(-_ChannelMask) + mask * saturate(_ChannelMask), abs(_ChannelMask));
 #ifndef UNITY_COLORSPACE_GAMMA

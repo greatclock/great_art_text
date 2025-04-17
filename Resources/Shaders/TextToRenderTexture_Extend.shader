@@ -26,6 +26,9 @@
             {
                 int j;
                 float4 origin = tex2D(_MainTex, i.uv);
+#ifndef UNITY_COLORSPACE_GAMMA
+                origin.rgb = LinearToGammaSpace(origin.rgb);
+#endif
                 float4 color = origin;
                 for (j = 0; j < _ExtendCount; j++) {
                     float4 offset = _Offsets[j];

@@ -95,7 +95,7 @@
                 float4 glowColor = glowG * glowT;
                 
                 float4 fx = tex2D(_MainTex, i.uv.xy);
-                float4 txt_blend = lerp(float4(t3d.rgb * sign(1 - txt.a), t3d.a * (1 - txt.a)), AlphaBlend(t3d, txt), _GlowBlend.z);
+                float4 txt_blend = lerp(float4(t3d.rgb * sign(1 - txt.a), t3d.a * (1 - txt.a)), AlphaBlend(t3d, txt, 0), _GlowBlend.z);
                 float4 outer = float4(outerColor.rgb, outerColor.a * pow(fx.g, 1 / max(0.00001, _FxBlend.x)));
                 float outlineAlpha = outineColor.a * pow(fx.r * 40, 2);
                 float4 outline = float4(outineColor.rgb, step(0.1, outlineAlpha) * clamp(outlineAlpha, 0, outineColor.a));
@@ -124,8 +124,8 @@
                     emboss = dot(lightdir, float2(c1 + c2, s1 + s2) * 0.5) * (abs(b2 - b0) + abs(b3 - b1)) * _Emboss.y;
                 }
 
-                float4 blend = AlphaBlend(AlphaBlend(outer, outline), txt_blend);
-                float4 innerBlend = AlphaBlend(blend, float4(inner.rgb, clamp(inner.a, 0, innerColor.a)));
+                float4 blend = AlphaBlend(AlphaBlend(outer, outline, 0), txt_blend, 1);
+                float4 innerBlend = AlphaBlend(blend, float4(inner.rgb, clamp(inner.a, 0, innerColor.a)), 0);
 
                 float4 noglow = lerp(blend, innerBlend, _FxBlend.z) + float4(inner.rgb * inner.a * _FxBlend.w, 0);
                 if (emboss > 0) {

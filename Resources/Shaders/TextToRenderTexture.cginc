@@ -67,10 +67,10 @@ float4 fragBlurHalf(v2f i, float2 dir, float4 mask)
     return lerp(tex, col * max(mask * (1 - step(mask, 1)), 1) * step(_ColorLevelMin, col), saturate(mask));
 }
 
-float4 AlphaBlend(float4 dst, float4 src)
+float4 AlphaBlend(float4 dst, float4 src, float src2dstWhen0)
 {
     float alpha = 1 - (1 - src.a) * (1 - dst.a);
-    if (alpha <= 0) { return float4(src.rgb, 0); }
+    if (alpha <= 0) { return float4(lerp(src.rgb, dst.rgb, src2dstWhen0), 0); }
     return float4((dst.rgb * dst.a * (1 - src.a) + src.rgb * src.a) / alpha, alpha);
 }
 
